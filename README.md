@@ -52,7 +52,7 @@ Status \| Prediction \| Logout)
 ------------------------------------------------------------------------
 
 ## 📁 Project Structure
-
+```
 Hospital-Resource-Management/
 │
 ├── backend/
@@ -90,48 +90,54 @@ Hospital-Resource-Management/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
-
+```
 ------------------------------------------------------------------------
 
 ## ⚙️ Installation & Setup
 
 ### Clone the Repository
-
+```
 git clone
 https://github.com/your-username/hospital-resource-management.git cd
 hospital-resource-management
-
+```
 ### Install Dependencies
-
+```
 cd backend npm install
 
 pip install -r requirements.txt
-
+```
 ### Setup Environment Variables
-
+```
 PORT=5000 MONGO_URI=your_mongodb_connection_string
-
+```
 ### Run Project
-
+```
 npm start
 
 python ml/model.py
-
+```
 ------------------------------------------------------------------------
 
 ## 🔌 API Endpoints
 
--   /api/resources
--   /api/auth
--   /api/prediction
--   /api/dashboard
+| Endpoint          | Description               |
+| ----------------- | ------------------------- |
+| `/api/resources`  | Manage hospital resources |
+| `/api/auth`       | Authentication            |
+| `/api/prediction` | AI predictions            |
+| `/api/dashboard`  | Analytics data            |
+
 
 ------------------------------------------------------------------------
 
 ## 🤝 Contributing
 
-Fork → Edit → Pull Request
-
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 ------------------------------------------------------------------------
 
 ## 📜 License
